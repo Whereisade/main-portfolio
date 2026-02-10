@@ -69,6 +69,15 @@ export default function HomePage() {
         "https://res.cloudinary.com/ddrylpaqx/image/upload/v1741865532/Screenshot_2025-03-13_123149_bvci9m.png",
     },
     {
+      title: "NIEMR",
+      description:
+        "Niemr is an EMR system designed for Nigerian healthcare settings with limited connectivity. It supports hospital, provider, and patient logins with role-based workflows, clinical notes, lab/pharmacy integration, and secure audit trails. Key features include in-app notifications, global search, color-coded abnormal results, and bulk data uploads via CSV.",
+      liveLink: "https://niemr-webapp.vercel.app/",
+      tags: ["Next.js", "Responsive", "SEO"],
+      image:
+        "https://res.cloudinary.com/ddrylpaqx/image/upload/v1769200863/Screenshot_2026-01-23_195120_ilabk1.png",
+    },
+    {
       title: "Ori-Ire Hospital Website",
       description:
         "Healthcare facility website featuring interactive sections, SEO optimization, and appointment forms.",
@@ -385,9 +394,6 @@ export default function HomePage() {
               <h3 className="text-2xl font-semibold">Education</h3>
               <ul className="list-disc list-inside text-gray-300">
                 <li>B.Sc. Accounting – Babcock University, Ogun, Nigeria</li>
-                <li>
-                  SSCE – Dee Unique College, Abesan Estate, Ipaja, Lagos State
-                </li>
               </ul>
             </div>
           </div>
