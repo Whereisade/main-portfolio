@@ -72,10 +72,10 @@ export default function HomePage() {
       title: "NIEMR",
       description:
         "Niemr is an EMR system designed for Nigerian healthcare settings with limited connectivity. It supports hospital, provider, and patient logins with role-based workflows, clinical notes, lab/pharmacy integration, and secure audit trails. Key features include in-app notifications, global search, color-coded abnormal results, and bulk data uploads via CSV.",
-      liveLink: "https://niemr-webapp.vercel.app/",
-      tags: ["Next.js", "Responsive", "SEO"],
+      liveLink: "https://niemr.com/",
+      tags: ["Next.js", "Responsive", "SEO","Django", "DRF", "PostgreSQL"],
       image:
-        "https://res.cloudinary.com/ddrylpaqx/image/upload/v1769200863/Screenshot_2026-01-23_195120_ilabk1.png",
+        "https://res.cloudinary.com/ddrylpaqx/image/upload/v1771957336/Screenshot_2026-02-24_191940_m6pk7g.png",
     },
     {
       title: "Ori-Ire Hospital Website",
