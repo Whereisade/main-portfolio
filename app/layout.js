@@ -1,6 +1,7 @@
 
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Preloader from "./components/Preloader";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
@@ -28,7 +29,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-black text-white antialiased`}>
+      <body className={`${inter.className} bg-black text-white antialiased preloader-active`}>
+        <Preloader />
         {children}
       </body>
     </html>
