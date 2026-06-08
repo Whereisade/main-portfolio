@@ -1,6 +1,31 @@
-/* @import "tailwindcss"; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    text-rendering: geometricPrecision;
+  }
+
+  ::selection {
+    background: rgba(59, 130, 246, 0.35);
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-[0_10px_30px_-15px_rgba(0,0,0,0.7)];
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold tracking-tight;
+  }
+  .section-subtitle {
+    @apply text-gray-300 leading-relaxed;
+  }
+}
 
 
