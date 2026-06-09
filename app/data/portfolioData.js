@@ -13,7 +13,7 @@ export const profile = {
   about:
     "I'm a versatile and detail-oriented Fullstack Web Developer and UI/UX Designer with a strong foundation in both frontend and backend development. I specialize in building scalable, responsive, and high-performance web applications using modern technologies like React, Next.js, and Tailwind CSS. On the backend, I work with Django and Django REST Framework to create clean, maintainable code and secure authentication systems. I'm also passionate about crafting intuitive, user-centered digital experiences with Figma and deploying production-ready projects using Vercel and Render",
   headshot:
-    "https://res.cloudinary.com/ddrylpaqx/image/upload/v1741866256/q_fqd1dr.jpg",
+    "https://res.cloudinary.com/ddrylpaqx/image/upload/v1780998079/my_pic_pyn3ht.jpg",
   highlights: [
     {
       label: "Core Stack",
