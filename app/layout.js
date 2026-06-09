@@ -33,6 +33,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} bg-black text-white antialiased preloader-active`}>
         <Preloader />
         {children}
+        <Analytics />
       </body>
     </html>
   );
