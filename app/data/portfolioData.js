@@ -51,16 +51,17 @@ export const skills = [
       "Django",
       "Django REST Framework",
       "JWT / Token Auth",
-      "Basic Node.js",
+      "Node.js",
+      "FastAPI",
     ],
   },
   {
     title: "Database",
-    items: ["PostgreSQL", "Supabase", "MongoDB", "SQL"],
+    items: ["PostgreSQL", "Supabase", "MongoDB", "SQL", "ORMs (Django)"],
   },
   {
     title: "DevOps & Tools",
-    items: ["Git", "GitHub", "CI/CD", "Vercel", "Render"],
+    items: ["Git", "GitHub", "CI/CD", "Vercel", "Render", "AWS", "Linux", "Docker"],
   },
   {
     title: "Design",
@@ -70,16 +71,16 @@ export const skills = [
 
 export const featuredProjects = [
   {
-    title: "NIEMR — Offline-aware EMR",
+    title: "NIEMR — EMR System",
     type: "Fullstack",
     description:
-      "Mobile-first EMR for Nigerian healthcare settings. Role-based workflows for facilities, providers and patients — with offline-first encounters and automatic sync.",
+      "Mobile-first EMR for Nigerian healthcare settings. Role-based workflows for facilities, providers and patients with clinical encounters and automatic sync.",
     highlights: [
-      "Offline-first clinical workflows",
+      "Professional clinical workflows",
       "Role-based access + audit trails",
       "Labs/Pharmacy modules + notifications",
     ],
-    tags: ["Next.js", "Django", "DRF", "PostgreSQL"],
+    tags: ["Next.js", "Django", "DRF", "PostgreSQL", "AWS"],
     liveLink: "https://niemr.com/",
     image:
       "https://res.cloudinary.com/ddrylpaqx/image/upload/v1771957336/Screenshot_2026-02-24_191940_m6pk7g.png",
@@ -89,12 +90,23 @@ export const featuredProjects = [
     title: "Omowunmi’s Kitchen",
     type: "Frontend",
     description:
-      "Responsive marketing website with strong UX, performance optimizations and SEO-friendly structure.",
+      "Responsive Catering website showcasing professional services and a gallery, with strong UX, performance optimization and SEO-friendly structure.",
     highlights: ["Mobile-first layout", "Image optimization", "Service + gallery sections"],
-    tags: ["Next.js", "Tailwind CSS"],
+    tags: ["Next.js", "Tailwind CSS", "SEO"],
     liveLink: "https://www.omowunmikitchen.com.ng/",
     image:
       "https://res.cloudinary.com/ddrylpaqx/image/upload/v1741865533/Screenshot_2025-03-13_122528_ts8cij.png",
+  },
+  {
+    title: "Semis",
+    type: "Frontend",
+    description:
+      "Collaborated on the end-to-end product for integrating B2B functionality into an existing B2C application, aligning user experience with business goals",
+    highlights: ["Real Project Collaboration", "B2B functionality", "Automated Gap Analysis", "Figma Prototyping"],
+    tags: ["Next.js", "Tailwind CSS", "Figma", "Agile", "B2B", "AWS"],
+    liveLink: "https://www.semis.reispartechnologies.com/",
+    image:
+      "https://res.cloudinary.com/ddrylpaqx/image/upload/v1781025320/Screenshot_2026-06-09_181505_l9kclk.png",
   },
   {
     title: "Booking Management System",
