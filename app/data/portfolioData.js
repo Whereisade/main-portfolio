@@ -7,7 +7,7 @@ export const profile = {
   github: "https://github.com/Whereisade",
   linkedin: "https://www.linkedin.com/in/fawaz-adewuyi/",
   portfolio: "https://fawaz-portfolio-ashy.vercel.app/",
-  cvFile: "https://docs.google.com/document/d/1So28wMeH4fdnVfLTVCK46hPScnjB0SG-2apk1tBVoiY/edit?usp=sharing",
+  cvFile: "https://smallpdf.com/file#s=a7d731d1-b80b-48c5-8267-7d9c7bc47eb5",
   heroIntro:
     "I build fast, responsive and interactive web apps and I also design clean, user-first interfaces. I’m passionate about creating digital experiences that are not only visually appealing but also intuitive",
   about:
